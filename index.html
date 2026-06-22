@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#ff8fc7" />
+  <title>Marwa — My Love Story</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="float-layer" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a href="#home" class="brand"><span>♡</span> Marwa</a>
+    <nav>
+      <a href="#story">القصة</a>
+      <a href="#letter">رسالة</a>
+      <a href="#cats">Cats</a>
+      <a href="#promise">Promise</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero section-card">
+      <div class="hero-copy">
+        <p class="eyebrow">A little website for the girl who stole my heart</p>
+        <h1>إلى مروى… <span>My Beautiful Marwa</span></h1>
+        <p class="hero-text">
+          من أول 4 أيام معاك، حسّيت أن القلب عرف طريقه. هذا الموقع الصغير مصنوع بالحب،
+          باللون الوردي و light blue، وبزاوية خاصة للقطط لأنك تحبينهم بزاف 🐱💗
+        </p>
+
+        <div class="hero-actions">
+          <button class="primary-btn" id="startMagic">شغّلي السحر والموسيقى ✨</button>
+          <a class="ghost-btn" href="#letter">اقرئي الرسالة</a>
+        </div>
+
+        <div class="music-card" aria-label="Music player">
+          <div class="music-icon">♪</div>
+          <div>
+            <strong>SATA 9ATALA</strong>
+            <span>BY STORMY — for our little love story</span>
+          </div>
+          <button id="musicToggle" class="mini-btn">Play</button>
+          <audio id="loveSong" src="assets/sata-9atala-stormy.m4a" preload="auto" loop></audio>
+        </div>
+      </div>
+
+      <div class="hero-photo-wrap">
+        <div class="ring ring-one"></div>
+        <div class="ring ring-two"></div>
+        <img src="assets/marwa.jpg" alt="صورة مروى" class="hero-photo" />
+        <div class="photo-badge">Marwa 💍</div>
+      </div>
+    </section>
+
+    <section id="story" class="section-card story-grid">
+      <div>
+        <p class="eyebrow">Our beginning</p>
+        <h2>4 أيام فقط… ولكن الإحساس كبير بزاف</h2>
+        <p>
+          بعض القصص تحتاج سنوات لتصبح جميلة، وبعض القصص تبدأ في أيام قليلة ولكن تدخل للقلب بسرعة.
+          مروى، أنتِ لستِ مجرد شخص عابر، أنتِ بداية حلم كبير.
+        </p>
+      </div>
+
+      <div class="counter-card">
+        <span class="counter-label">نحن مع بعض منذ</span>
+        <div class="counter-number" id="daysCounter">4</div>
+        <span class="counter-label">Days of love</span>
+        <small id="liveCounter">كل دقيقة تزيد قيمة القصة</small>
+      </div>
+    </section>
+
+    <section class="section-card gallery-section">
+      <div class="section-title">
+        <p class="eyebrow">Our moments</p>
+        <h2>صور وذكريات صغيرة</h2>
+      </div>
+
+      <div class="media-grid">
+        <figure class="media-card tall">
+          <img src="assets/marwa.jpg" alt="Marwa photo" />
+          <figcaption>عيونك فيها هدوء ما يتشرحش بالكلام ✨</figcaption>
+        </figure>
+
+        <figure class="media-card">
+          <video src="assets/marwa-moment-1.mp4" controls playsinline preload="metadata"></video>
+          <figcaption>Moment 01 — محفوظة في القلب</figcaption>
+        </figure>
+
+        <figure class="media-card">
+          <video src="assets/marwa-moment-2.mp4" controls playsinline preload="metadata"></video>
+          <figcaption>Moment 02 — little memory, big feeling</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="letter" class="section-card letter-section">
+      <div class="letter-paper">
+        <p class="eyebrow">Love Letter</p>
+        <h2>رسالة إلى مروى</h2>
+        <p>
+          يا مروى، ربما 4 أيام تبدو قليلة أمام العالم، لكن أمام قلبي كانت كافية باش نفهم
+          أن وجودك مختلف. ابتسامتك، كلامك، ووجودك كيعطيو معنى جميل لليوم.
+        </p>
+        <p>
+          بغيتك تعرفي أنني لا أريد حبًّا مؤقتًا. I want something real. أريد أن أبني معك
+          بيتًا فيه احترام، ضحك، أمان، وقطط صغيرة تجري في كل مكان 🐾
+        </p>
+        <p>
+          مروى، أنتِ حلمي الجميل… وإن شاء الله يومًا ما أقولها أمام الجميع:
+          <strong>هذه زوجتي، هذه مروى التي اخترتها بقلبي.</strong>
+        </p>
+        <button class="primary-btn" id="openSecret">افتحي كلمة سر صغيرة 💌</button>
+      </div>
+    </section>
+
+    <section class="section-card reasons-section">
+      <div class="section-title">
+        <p class="eyebrow">Why you?</p>
+        <h2>أشياء أحبها فيك</h2>
+      </div>
+      <div class="cards-grid">
+        <article class="love-card">
+          <span>👀</span>
+          <h3>عيونك</h3>
+          <p>فيهم جمال وهدوء، كأن العالم يوقف لحظة باش يسمعك.</p>
+        </article>
+        <article class="love-card">
+          <span>💗</span>
+          <h3>قلبك</h3>
+          <p>حتى من بعيد، الإحساس ديالك كيوصل بطريقة لطيفة.</p>
+        </article>
+        <article class="love-card">
+          <span>🐱</span>
+          <h3>حبك للقطط</h3>
+          <p>اللي يحب القطط عنده قلب حنين… وقلبي اختارك.</p>
+        </article>
+        <article class="love-card">
+          <span>✨</span>
+          <h3>Your vibe</h3>
+          <p>خفيفة، جميلة، وتخلي أي يوم عادي يتحول إلى ذكرى.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="cats" class="section-card cats-section">
+      <div class="cat-scene" aria-hidden="true">
+        <div class="cat cat-one">🐈</div>
+        <div class="cat cat-two">🐈‍⬛</div>
+        <div class="yarn">🧶</div>
+      </div>
+      <div>
+        <p class="eyebrow">Cats corner</p>
+        <h2>مملكة مروى والقطط</h2>
+        <p>
+          تخيلت لك زاوية صغيرة في الموقع كلها قطط، قلوب، وهدوء. لأن مروى + Cats =
+          perfect happiness. يومًا ما إن شاء الله، يكون عندنا بيت صغير وفيه قطة مدلّلة باسم جميل تختاريه أنتِ.
+        </p>
+        <div class="cat-tags">
+          <span>Pink paws</span>
+          <span>Light blue sky</span>
+          <span>Soft love</span>
+          <span>Marwa’s cats</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="promise" class="section-card dream-section">
+      <div class="section-title">
+        <p class="eyebrow">My Promise</p>
+        <h2>وعد مني لك</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span>01</span>
+          <h3>نحترمك دائمًا</h3>
+          <p>الحب الحقيقي يبدأ بالاحترام، وأنا أريدك مرتاحة ومطمئنة.</p>
+        </div>
+        <div class="timeline-item">
+          <span>02</span>
+          <h3>نفرحك كل يوم</h3>
+          <p>حتى بكلمة صغيرة، song، message، أو surprise بسيطة.</p>
+        </div>
+        <div class="timeline-item">
+          <span>03</span>
+          <h3>نبني مستقبلنا</h3>
+          <p>ليس فقط كلام حب، بل نية صافية: marriage, home, family, forever.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="proposal section-card">
+      <p class="eyebrow">One day, Insha’Allah</p>
+      <h2>Marwa… will you marry me someday? 💍</h2>
+      <p>
+        ماشي شرط الجواب يكون اليوم، ولكن بغيتك تعرفي أن النية ديالي صافية: نحبك، نحترمك،
+        ونتمناك تكوني شريكة حياتي.
+      </p>
+      <div class="proposal-actions">
+        <button class="primary-btn big" id="yesButton">Yes, Insha’Allah 💍</button>
+        <button class="ghost-btn big" id="smileButton">ابتسمي فقط 😍</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with love for <strong>Marwa</strong> — 4 days, endless feelings, forever dream ♡</p>
+  </footer>
+
+  <dialog id="secretModal" class="modal">
+    <button class="close-modal" id="closeSecret" aria-label="Close">×</button>
+    <h2>كلمة السر هي: Marwa 💗</h2>
+    <p>
+      كل مرة تفتحي هذا الموقع، تذكري أن هناك قلبًا يفكر فيك ويدعي أن تكوني له بالحلال.
+      You are my favorite notification, my soft place, and my future dream.
+    </p>
+  </dialog>
+
+  <div class="toast" id="toast">ابتسامتك أجمل جواب 💗</div>
+  <canvas id="confettiCanvas" aria-hidden="true"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
